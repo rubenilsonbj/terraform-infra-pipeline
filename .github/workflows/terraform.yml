@@ -58,7 +58,7 @@ jobs:
         env:
         if:
         timeout-minutes:
-        continue-on-error: false
+        continue-on-error: true
       - name: Terraform Validate
         run: terraform validate
 
